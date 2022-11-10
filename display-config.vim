@@ -1,0 +1,14 @@
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set updatetime=750
+set incsearch
+set nohlsearch
+set scrolloff=12
+set number
+set laststatus=2
+set nocompatible
+set nowrap
+set termguicolors
+set background=dark
+colorscheme tokyonight
