@@ -21,6 +21,8 @@ Plug 'preservim/nerdtree'
 Plug 'puremourning/vimspector'
 Plug 'jiangmiao/auto-pairs'
 Plug 'preservim/nerdcommenter'
+Plug 'junegunn/fzf', {'do': { -> fzf#install() }}
+Plug 'junegunn/fzf.vim'
 
 "Others
 Plug 'sheerun/vim-polyglot'
@@ -28,5 +30,7 @@ Plug 'matze/vim-move'
 Plug 'tpope/vim-surround'
 Plug 'jayli/vim-brainfuck'
 Plug 'PhilRunninger/nerdtree-buffer-ops'
+Plug 'L04DB4L4NC3R/texgroff.vim'
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 
 call plug#end()

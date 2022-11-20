@@ -28,8 +28,9 @@ map <leader>cn :set background=dark <Bar> colorscheme nightfly<CR>
 map <leader>ce :set background=dark <Bar> colorscheme embark<CR>
 
 "Editing
-map <leader>d <S-v>y$p
-map <leader>x <S-v>d
+noremap <leader>d <S-v>y$p
+noremap <leader>x <S-v>d
+noremap <leader>; $xi<Right>;<Esc>
 
 "Terminal
 noremap <leader>t<Down> :below terminal<CR>
@@ -37,3 +38,6 @@ noremap <leader>t<Up> :above terminal<CR>
 noremap <leader>t<Left> :vertical terminal<CR>
 noremap <leader>t<Right> :vertical botright terminal<CR>
 noremap <leader>ts :terminal gcc %<CR>
+
+"File management
+noremap <leader>f :Files<CR>
