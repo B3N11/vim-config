@@ -30,6 +30,7 @@ map <leader>ce :set background=dark <Bar> colorscheme embark<CR>
 "Editing
 noremap <leader>d <S-v>y$p
 noremap <leader>x <S-v>d
+noremap <leader>y <S-v>y
 noremap <leader>; $xi<Right>;<Esc>
 
 "Terminal
